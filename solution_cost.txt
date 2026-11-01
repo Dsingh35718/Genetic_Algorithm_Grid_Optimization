@@ -1,0 +1,5 @@
+Problem 1: M=5, N=4, Cost=79
+Problem 2: M=13, N=7, Cost=666
+Problem 3: M=35, N=37, Cost=45358
+Problem 4: M=100, N=75, Cost=564275
+Problem 5: M=730, N=490, Cost=175389870
