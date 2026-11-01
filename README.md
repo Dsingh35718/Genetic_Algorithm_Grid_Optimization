@@ -8,10 +8,9 @@ This project was developed for **CS 4400: Artificial Intelligence (Fall 2026)**.
 
 Given an `M × N` grid containing each integer from `1` to `M × N` exactly once, minimize
 
-\[
-C(A) = \sum_{r=0}^{M-1}\sum_{c=0}^{N-2}|A_{r,c}-A_{r,c+1}|
-     + \sum_{r=0}^{M-2}\sum_{c=0}^{N-1}|A_{r,c}-A_{r+1,c}|.
-\]
+$$
+C(A) = \sum_{r=0}^{M-1}\sum_{c=0}^{N-2}|A_{r,c}-A_{r,c+1}| + \sum_{r=0}^{M-2}\sum_{c=0}^{N-1}|A_{r,c}-A_{r+1,c}|
+$$
 
 Each horizontal and vertical neighboring pair is counted **once**. Lower scores are better.
 
